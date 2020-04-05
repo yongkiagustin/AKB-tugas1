@@ -11,7 +11,7 @@ package id.yongki.edu.tugas1;
 //- MINGGU 5 APRIL 2020 19:16 mengganti warna tombol
 //- MINGGU 5 APRIL 2020 19:34 layouting activity biodata
 //- MINGGU 5 APRIL 2020 19:50 set intent di semua activity
-//- MINGGU 5 APRIL 2020 21:01 membuat shape button 
+//- MINGGU 5 APRIL 2020 21:01 membuat shape button
 //
 import androidx.appcompat.app.AppCompatActivity;
 

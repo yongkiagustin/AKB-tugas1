@@ -17,7 +17,7 @@ public class SayHi extends AppCompatActivity {
         String nama  =intent.getStringExtra(biodata.EXTRA_MESSAGE);
 
         TextView textView = findViewById(R.id.display_nama_textView);
-        textView.setText(nama);
+        textView.setText("Beres! Sekarang "+nama+" udah bisa ngecek penggunaan HP "+nama+" tiap hari buat bantu "+nama+" ngatur waktu:)");
     }
 
 }
