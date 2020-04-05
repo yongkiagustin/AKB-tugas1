@@ -10,6 +10,7 @@ package id.yongki.edu.tugas1;
 //- MINGGU 5 APRIL 2020 17:44 add INTENT mulai
 //- MINGGU 5 APRIL 2020 19:16 mengganti warna tombol
 //- MINGGU 5 APRIL 2020 19:34 layouting activity biodata
+//- MINGGU 5 APRIL 2020 19:50 set intent di semua activity
 //
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void mulai(View v){
+    public void mulai_btn(View v){
         Intent intent = new Intent(this, LoginCode.class);
         startActivity(intent);
 

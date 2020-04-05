@@ -38,7 +38,9 @@
         android:layout_height="wrap_content"
         android:text="MULAI"
         android:layout_alignParentBottom="true"
-        android:layout_margin="24dp"
-        android:onClick="mulai_btn">
+        android:layout_margin="48dp"
+
+        android:onClick="mulai_btn"
+        android:background="@drawable/rounded_button">
     </Button>
 </RelativeLayout>
