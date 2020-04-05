@@ -8,6 +8,8 @@ package id.yongki.edu.tugas1;
 //- MINGGU 5 APRIL 2020 17:32 LAYOUTING LOGIN CODE ACTIVITY
 //- MINGGU 5 APRIL 2020 18:24 SETTING NO ACTION BAR
 //- MINGGU 5 APRIL 2020 17:44 add INTENT mulai
+//- MINGGU 5 APRIL 2020 19:16 mengganti warna tombol
+//- MINGGU 5 APRIL 2020 19:34 layouting activity biodata
 //
 import androidx.appcompat.app.AppCompatActivity;
 
