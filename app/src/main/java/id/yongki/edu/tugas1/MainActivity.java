@@ -12,7 +12,9 @@ package id.yongki.edu.tugas1;
 //- MINGGU 5 APRIL 2020 19:34 layouting activity biodata
 //- MINGGU 5 APRIL 2020 19:50 set intent di semua activity
 //- MINGGU 5 APRIL 2020 21:01 membuat shape button
-//
+// - SENIN 6 APRIL 2020 10.30 membuat shape edittext
+// - SENIN 6 APRIL 2020 10.50 membuat button di sayhi activity dan menambahkan fungsi close app
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -26,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void mulai_btn(View v){
+
+    public void mulai_btn(View v) {
         Intent intent = new Intent(this, LoginCode.class);
         startActivity(intent);
-
     }
 }

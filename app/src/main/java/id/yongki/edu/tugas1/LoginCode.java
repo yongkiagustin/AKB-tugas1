@@ -14,17 +14,20 @@ public class LoginCode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_code);
     }
-    public void masuk_btn(View v){
-        Intent intent = new Intent(this,biodata.class);
+
+    public void masuk_btn(View v) {
+        Intent intent = new Intent(this, biodata.class);
         startActivity(intent);
 
     }
+
     public void toastMsg(String msg) {
 
         Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
         toast.show();
 
     }
+
     public void beli_kode_btn(View v) {
         toastMsg("Anda Menekan Tombol Beli Kode!!!");
 

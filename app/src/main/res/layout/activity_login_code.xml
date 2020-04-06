@@ -9,83 +9,86 @@
     android:layout_marginBottom="24dp"
     android:orientation="vertical"
     tools:context=".LoginCode">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="KODE KELUARGA"
-        android:textColor="@android:color/black"
-        android:textSize="24dp"
-        android:textStyle="bold">
-
-    </TextView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ketikkan Kode Keluarga Yang Ayah Bunda Miliki Disini"
-        android:textColor="@android:color/black"
-        android:textSize="20dp"
-        >
-    </TextView>
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="16dp"
-    android:hint="Ketikkan Kode disini"
-    android:textAlignment="center"
-    android:textAllCaps="true"
-    android:textColor="@android:color/black"
-    >
-</EditText>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/menyetujui"
-        android:textColor="@android:color/black"
-        android:textSize="12dp"
-        android:textAlignment="center"
-        >
-    </TextView>
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="masuk"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="24dp"
-        android:onClick="masuk_btn"
-        android:background="@drawable/rounded_button">
-    </Button>
-</LinearLayout>
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    >
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Belum Punya Kode Keluarga?"
-        android:textAlignment="center"
-        android:layout_above="@+id/dua"
-        >
-    </TextView>
-    <Button
-        android:id="@+id/dua"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Beli kode keluarga disini"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="8dp"
-        android:background="@drawable/rounded_button2"
-        android:textColor="@android:color/white"
-        android:onClick="beli_kode_btn">
+        android:orientation="vertical">
 
-    </Button>
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="KODE KELUARGA"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ketikkan Kode Keluarga Yang Ayah Bunda Miliki Disini"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Ketikkan Kode disini"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menyetujui"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+
+            ></TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="24dp"
+            android:background="@drawable/rounded_button"
+            android:onClick="masuk_btn"
+            android:text="masuk"></Button>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dua"
+            android:text="Belum Punya Kode Keluarga?"
+            android:textAlignment="center"></TextView>
+
+        <Button
+            android:id="@+id/dua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button2"
+            android:onClick="beli_kode_btn"
+            android:text="Beli kode keluarga disini"
+            android:textColor="@android:color/white">
+
+        </Button>
+    </RelativeLayout>
 
 </RelativeLayout>
