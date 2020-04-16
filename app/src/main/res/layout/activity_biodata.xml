@@ -52,6 +52,26 @@
             android:textAllCaps="true"
             android:textColor="@android:color/black"></EditText>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Kode keluarga Kamu"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/placeCode_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold">
+            </TextView>
+
     </LinearLayout>
 
     <Button
